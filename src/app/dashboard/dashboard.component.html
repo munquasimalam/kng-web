@@ -1,0 +1,19 @@
+<p>
+  {{title}}
+</p>
+ 
+  <div class="list-group">
+      <a [routerLink]="['/mysqlConnection']" class="list-group-item list-group-item-action">Create Mysql Connection </a>
+     
+      <a [routerLink]="['/hanaConnection']"  class="list-group-item list-group-item-action">Create SapHana Connection</a>
+      <a [routerLink]="['/createtables']"  class="list-group-item list-group-item-action">Create Tables</a>
+     
+      <a [routerLink]="['/insertdata']"  class="list-group-item list-group-item-action">Insert Data in Tables</a>
+      
+    <div>	
+      <router-outlet></router-outlet>
+    </div>
+    
+
+ 
+
